@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS в HTML</title>
+</head>
+
+<body>
+
+  <script>
+
+function multiply(a) {
+    return function(b) {
+        return a * b;
+    };
+}
+
+// Пример использования:
+const result = multiply(5)(2);
+console.log(result); // 10
+
+
+  </script>
+
+</body>
+
+</html>
